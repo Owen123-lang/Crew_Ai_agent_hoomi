@@ -1,11 +1,11 @@
-# 🚀 Hoomi AI Agent Orchestrator
+# Hoomi AI Agent Orchestrator
 
 **Social Commerce & Ride Fleet Platform**  
 Powered by CrewAI + Google Gemini 2.0
 
 ---
 
-## 📋 Daftar Isi
+## Daftar Isi
 
 - [Overview](#overview)
 - [Arsitektur](#arsitektur)
@@ -21,7 +21,7 @@ Powered by CrewAI + Google Gemini 2.0
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Hoomi AI Agent Orchestrator adalah implementasi **CrewAI** untuk mengelola 3 proses bisnis utama:
 
@@ -33,15 +33,15 @@ Hoomi AI Agent Orchestrator adalah implementasi **CrewAI** untuk mengelola 3 pro
 
 Proyek ini mengikuti **Terms of Reference (TOR) Hiliriset AI Agent Social Commerce dan Ride Fleet Ver0.2**, dengan implementasi:
 
-✅ **Hierarchical Process** - Manager LLM sebagai orchestrator  
-✅ **3 AI Agents** - Storefront, Dispatch, Merchant  
-✅ **MCP Tools** - Internal & External tool integration  
-✅ **Guardrails HITL** - Human-in-the-Loop untuk data sensitif  
-✅ **Blockchain Ready** - Persiapan integrasi Ethereum L2 BASE  
+**Hierarchical Process** - Manager LLM sebagai orchestrator  
+ **3 AI Agents** - Storefront, Dispatch, Merchant  
+**MCP Tools** - Internal & External tool integration  
+**Guardrails HITL** - Human-in-the-Loop untuk data sensitif  
+ **Blockchain Ready** - Persiapan integrasi Ethereum L2 BASE  
 
 ---
 
-## 🏗️ Arsitektur
+## Arsitektur
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -79,7 +79,7 @@ Proyek ini mengikuti **Terms of Reference (TOR) Hiliriset AI Agent Social Commer
 
 ---
 
-## ✨ Fitur Utama
+##  Fitur Utama
 
 ### 1. Multi-Agent Collaboration
 
@@ -90,10 +90,10 @@ Proyek ini mengikuti **Terms of Reference (TOR) Hiliriset AI Agent Social Commer
 ### 2. Human-in-the-Loop (HITL) Security
 
 Akses yang **WAJIB** memerlukan persetujuan user:
-- ✅ Wallet/Payment (`pay_wallet` tool)
-- ✅ GPS Location (`get_user_location` tool)
-- ✅ Personal Data
-- ✅ IoT Devices
+-  Wallet/Payment (`pay_wallet` tool)
+- GPS Location (`get_user_location` tool)
+-  Personal Data
+-  IoT Devices
 
 ### 3. Intelligent Routing
 
@@ -112,7 +112,7 @@ Tools menghasilkan structured output:
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 - **Python** >= 3.10
 - **pip** package manager
@@ -121,7 +121,7 @@ Tools menghasilkan structured output:
 
 ---
 
-## 🚀 Instalasi
+## Instalasi
 
 ### 1. Clone Repository (atau download files)
 
@@ -151,7 +151,7 @@ python -c "import crewai; print(crewai.__version__)"
 
 ---
 
-## ⚙️ Konfigurasi
+##  Konfigurasi
 
 ### 1. Setup Environment Variables
 
@@ -174,7 +174,7 @@ python -c "from dotenv import load_dotenv; import os; load_dotenv(); print('API 
 
 ---
 
-## 🎮 Cara Penggunaan
+##  Cara Penggunaan
 
 ### Menjalankan Orchestrator
 
@@ -187,9 +187,9 @@ python hoomi_main.py
 
 1. **Pilih Layanan**
    ```
-   1. 🛒 Jual Beli Barang
-   2. 📦 Pengantaran Barang  
-   3. 🚗 Antar Jemput Penumpang
+   1.  Jual Beli Barang
+   2.  Pengantaran Barang  
+   3.  Antar Jemput Penumpang
    ```
 
 2. **Input Data**
@@ -239,7 +239,7 @@ ETA Delivery: 18 minutes
 
 ---
 
-## 📁 Struktur Project
+##  Struktur Project
 
 ```
 CrewAI_Agent-boilerplate_dari_proyek_Meeting_Prep/
@@ -268,7 +268,7 @@ CrewAI_Agent-boilerplate_dari_proyek_Meeting_Prep/
 
 ---
 
-## ✅ Compliance dengan TOR
+##  Compliance dengan TOR
 
 ### TOR Section A: Peran dan Tanggung Jawab
 
@@ -314,7 +314,7 @@ CrewAI_Agent-boilerplate_dari_proyek_Meeting_Prep/
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Issue: API Key Not Found
 
@@ -370,7 +370,7 @@ task.human_input = True  # Explicitly set
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 ### Phase 1: MVP (Current) ✅
 - [x] Core agents implementation
@@ -405,7 +405,7 @@ task.human_input = True  # Explicitly set
 
 ---
 
-## 📚 Resources
+##  Resources
 
 ### Documentation
 - [CrewAI Documentation](https://docs.crewai.com/)
