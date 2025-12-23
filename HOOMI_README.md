@@ -425,36 +425,7 @@ task.human_input = True  # Explicitly set
 
 ---
 
-## 👥 Team & Support
 
-**Developer:** Tim Universitas Indonesia  
-**Platform:** Hoomi Indonesia  
-**Framework:** CrewAI + Google Gemini
-
-**Contact:**
-- 📧 Email: support@hoomi.id
-- 📱 WhatsApp: +62-xxx-xxxx-xxxx
-- 🌐 Website: https://hoomi.id
 
 ---
-
-## 📄 License
-
-Proprietary - Hoomi Indonesia © 2024
-
-**Note:** Proyek ini dikembangkan sesuai TOR Hiliriset dan merupakan bagian dari program kemitraan Tim Hoomi dengan Universitas Indonesia.
-
----
-
-## 🙏 Acknowledgments
-
-- **CrewAI Team** - Untuk framework yang powerful
-- **Google** - Untuk Gemini 2.0 API
-- **Tim Hoomi** - Untuk vision dan requirements
-- **Tim UI** - Untuk kolaborasi development
-
----
-
-**Happy Coding! 🚀**
-
 *Last Updated: 2024-01-15*
