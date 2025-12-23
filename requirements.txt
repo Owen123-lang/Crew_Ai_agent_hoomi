@@ -1,0 +1,89 @@
+# Hoomi AI Agent Orchestrator - Dependencies
+# Sesuai TOR Hiliriset AI Agent Social Commerce dan Ride Fleet
+# Updated: 2024-12-23
+# Windows-Compatible (No C++ Compiler Required)
+
+# ==========================================
+# CORE - CrewAI Framework (Latest Stable)
+# ==========================================
+# Upgrade ke versi terbaru yang tidak memerlukan embedchain/chromadb
+crewai>=0.80.0
+
+# ==========================================
+# LLM & AI - Google Gemini Integration
+# ==========================================
+# Google Generative AI untuk Gemini
+google-generativeai>=0.8.0
+langchain-google-genai>=2.0.0
+
+# LangChain core (kompatibel dengan CrewAI terbaru)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# ==========================================
+# ENVIRONMENT & CONFIG
+# ==========================================
+python-dotenv>=1.0.0
+
+# ==========================================
+# UTILITIES
+# ==========================================
+# Untuk parsing dan validation
+pydantic>=2.0.0
+
+# Untuk HTTP requests di tools
+requests>=2.31.0
+
+# ==========================================
+# OPTIONAL - Untuk Development & Testing
+# ==========================================
+# Uncomment jika diperlukan untuk testing
+
+# Testing
+# pytest==8.4.2
+# pytest-asyncio==0.23.0
+
+# Code Quality
+# black==24.0.0
+# flake8==7.0.0
+# mypy==1.8.0
+
+# ==========================================
+# PRODUCTION DEPENDENCIES (Future)
+# Untuk integrasi dengan Hoomi Platform
+# ==========================================
+
+# AWS Bedrock (jika menggunakan AWS Bedrock Agent Core)
+# boto3==1.34.0
+# botocore==1.34.0
+
+# Database & Vector Store (untuk RAG)
+# pgvector==0.2.4
+# psycopg2-binary==2.9.9
+
+# API Integration
+# fastapi==0.109.0
+# uvicorn==0.27.0
+
+# Blockchain Integration (Ethereum L2 BASE)
+# web3==6.15.0
+# eth-account==0.11.0
+
+# Real-time Communication
+# websockets==12.0
+# redis==5.0.1
+
+# Monitoring & Logging
+# opentelemetry-api==1.22.0
+# opentelemetry-sdk==1.22.0
+
+# ==========================================
+# NOTES
+# ==========================================
+# 1. SIMPLIFIED requirements untuk Windows (menghindari C++ compiler)
+# 2. crewai-tools DIHAPUS karena memerlukan chromadb yang butuh Visual C++
+# 3. Custom tools di hoomi_tools.py tidak memerlukan crewai-tools
+# 4. Production akan memerlukan dependencies tambahan
+# 5. Pastikan Python >= 3.10
+# 6. Install: pip install -r requirements.txt
